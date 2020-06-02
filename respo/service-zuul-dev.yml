@@ -1,11 +1,1 @@
-zuul:
-  routes: 
-    microservice-provider-user: /user/** 
-    item-service:  
-      path: /item-service/**  
-      url: http://192.168.120.156:12345 
-      serviceid: app-item
-    order-service: 
-      path: /order-service/** 
-      serviceid: app-order
-  ignored-services: app-order  
+zuul: 1 
